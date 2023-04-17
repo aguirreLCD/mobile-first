@@ -1,0 +1,39 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(carousel.css);
+@import url(trending.css);
+@import url(contact.css);
+@import url(footer.css);
+
+:root {
+  --orange1: #fd8325;
+  --orange2: #eb9b00;
+  --orange3: #fecd2f;
+
+  --white: #ffffff;
+  --white1: #c4c4c4;
+  /* bg */
+  --white2: #ebecee;
+  --white3: #f9f9f9;
+
+  --blue: #002f52;
+
+  --gray: #858585;
+
+  --black: #000000;
+
+  --blue-gradient: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%);
+
+  --main-font: "Poppins";
+
+  --secondary-font: "Josefin Sans";
+
+  --gray-footer-links: #474646;
+}
+
+body {
+  background-color: var(--white2);
+  font-family: var(--main-font);
+  font-size: 16px;
+  font-weight: 400;
+}

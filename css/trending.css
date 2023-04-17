@@ -1,0 +1,55 @@
+.trending {
+  background: var(--blue-gradient);
+  text-align: center;
+  padding: 1em 0;
+}
+
+.trending__title {
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 1em;
+}
+
+.trending__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.trending__item {
+  margin: 2em 0.5em;
+}
+
+.trending__link {
+  text-decoration: none;
+  color: var(--white);
+  padding: 1em;
+  background-color: var(--orange2);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* TABLETS */
+@media screen and (min-width: 1024px) {
+  .trending__title,
+  .trending__link {
+    font-size: 24px;
+  }
+
+  .trending__item {
+    margin: 3em 1em;
+  }
+
+  .trending__link:hover {
+    color: var(--orange2);
+    background-color: var(--white);
+  }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1728px) {
+  .trending {
+    padding: 3em 25vw;
+  }
+}
